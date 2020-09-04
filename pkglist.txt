@@ -30,7 +30,6 @@ git
 go
 gtk2
 gvim
-hydrogen
 i3-gaps
 imagemagick
 intel-media-driver
@@ -76,7 +75,6 @@ texlive-core
 tk
 tree
 ttf-font-awesome
-vmpk
 which
 xclip
 xorg-server
