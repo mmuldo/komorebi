@@ -1,0 +1,29 @@
+[options]
+scrollback_lines = -1
+font = Monospace 12
+browser = firefox
+
+[colors]
+foreground = #fcd7a8
+background = rgba(30, 59, 62, 1.000000)
+foreground_bold = #fcd7a8
+cursor = #fcd7a8
+cursor_foreground = #1e3b3e
+highlight = #34606f
+
+color0  = #26445a
+color1  = #ff8f87
+color2  = #b8b987
+color3  = #ffdfb1
+color4  = #61889f
+color5  = #d58799
+color6  = #6e796c
+color7  = #fed29b
+color8  = #34606f
+color9  = #ff8f87
+color10 = #b8b987
+color11 = #ffdfb1
+color12 = #61889f
+color13 = #d58799
+color14 = #3d7e6d
+color15 = #fcc993
