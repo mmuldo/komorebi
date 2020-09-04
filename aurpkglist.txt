@@ -1,0 +1,11 @@
+dell-bios-fan-control-git
+dropbox
+i8kutils
+lingot
+polybar
+spotify
+surge-synthesizer-bin
+trizen
+yadm-git
+zoom
+zyn-fusion
