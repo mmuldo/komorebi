@@ -1,6 +1,7 @@
 acpi
 acpilight
 alsa-utils
+arandr
 ardour
 audacity
 autoconf
@@ -80,6 +81,7 @@ xclip
 xorg-server
 xorg-xev
 xorg-xinit
+xorg-xrandr
 xorg-xset
 youtube-dl
 zathura
