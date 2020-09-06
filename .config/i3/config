@@ -257,6 +257,9 @@ bindsym XF86AudioNext exec --no-startup-id sp next
 bindsym XF86AudioPrev exec --no-startup-id sp prev
 bindsym XF86AudioStop exec --no-startup-id sp pause
 
+# brightness controls
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5
 
 ## move workspace to screen
 for_window [class="trust"] floating enable

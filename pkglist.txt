@@ -63,6 +63,7 @@ qjackctl
 qutebrowser
 ranger
 realtime-privileges
+redshift
 refind
 ripgrep
 rofi
@@ -77,6 +78,7 @@ tk
 tree
 ttf-font-awesome
 which
+xbindkeys
 xclip
 xorg-server
 xorg-xev
