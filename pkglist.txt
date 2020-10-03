@@ -15,6 +15,7 @@ cadence
 calf
 caps
 clang
+cups
 dhcpcd
 discord
 drumgizmo
@@ -36,7 +37,9 @@ imagemagick
 intel-media-driver
 intel-ucode
 jack2
+jdk-openjdk
 lastpass-cli
+libreoffice-still
 linux
 linux-firmware
 m4
@@ -49,6 +52,7 @@ network-manager-applet
 networkmanager
 noto-fonts
 noto-fonts-emoji
+nss-mdns
 openssh
 patch
 picom
@@ -74,6 +78,7 @@ tcl
 termite
 texinfo
 texlive-core
+thunar
 tk
 tree
 ttf-font-awesome
