@@ -135,12 +135,12 @@ content-background = ${colors.color13}
 
 [module/weather]
 type = custom/script
-exec = curl -s 'wttr.in/?format=1' | awk '{print $2}'
+exec = curl -s 'wttr.in/waunakee?u&format=1' | awk '{print $2}'
 interval = 120
 
 [module/weather_i]
 type = custom/script
-exec = curl -s 'wttr.in/?format=1' | awk '{print $1}'
+exec = curl -s 'wttr.in/waunakee?u&format=1' | awk '{print $1}'
 interval = 120
 format-background = ${colors.color3}
 

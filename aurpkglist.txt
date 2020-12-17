@@ -3,8 +3,10 @@ dropbox
 i8kutils
 lingot
 polybar
+qtspim
 spotify
 surge-synthesizer-bin
+teams
 trizen
 yadm-git
 zoom

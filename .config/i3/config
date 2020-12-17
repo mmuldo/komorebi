@@ -78,7 +78,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Monospace, Awesome 11
+font pango:Monospace 14, Awesome 11
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -95,6 +95,9 @@ bindsym $mod+d exec rofi -show drun
 
 # lastpass
 bindsym $mod+p exec ~/.local/bin/lpass-util
+
+# emoji
+bindsym $mod+o exec ~/.local/bin/copy-emoji
 
 ## alternative resize commands
 bindsym $mod+Shift+y resize shrink width 10 px or 10ppt
@@ -279,6 +282,6 @@ bindsym $mod+Shift+f exec --no-startup-id "firefox --private-window duckduckgo.c
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id dropbox
 exec_always --no-startup-id sh ~/.fehbg
-exec --no-startup-id picom
+#exec --no-startup-id picom
 exec --no-startup-id spotify
 exec --no-startup-id dunst
