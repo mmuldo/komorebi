@@ -31,12 +31,14 @@ font-3 = Font Awesome 5 Free Regular:style=Regular:size=12;3
 font-4 = Noto Color Emoji:style=Regular:scale=12;3
 
 [bar/top]
+monitor = ${env:MONITOR:}
 inherit = bar/base
 modules-left = battery_i battery separator volume_i volume separator brightness_i brightness
 modules-center = title
 modules-right = memory_i memory separator cpu_i cpu separator temperature_i temperature
 
 [bar/bottom]
+monitor = ${env:MONITOR:}
 inherit = bar/base
 bottom = true
 modules-center = i3
@@ -61,6 +63,10 @@ wrapping-scroll = false
 label-unfocused-padding = 1
 label-unfocused-background = ${colors.color9}
 label-unfocused = %index%
+
+label-visible-padding = 1
+label-visible-background = ${colors.color9}
+label-visible = %index%
 
 label-focused-background = ${colors.color10}
 label-focused-padding = 1
@@ -135,12 +141,12 @@ content-background = ${colors.color13}
 
 [module/weather]
 type = custom/script
-exec = curl -s 'wttr.in/waunakee?u&format=1' | awk '{print $2}'
+exec = curl -s 'wttr.in/middletown?format=1' | awk '{print $2}'
 interval = 120
 
 [module/weather_i]
 type = custom/script
-exec = curl -s 'wttr.in/waunakee?u&format=1' | awk '{print $1}'
+exec = curl -s 'wttr.in/middletown?format=1' | awk '{print $1}'
 interval = 120
 format-background = ${colors.color3}
 
@@ -192,7 +198,7 @@ format-discharging = <label-discharging>
 [module/temperature]
 type = internal/temperature
 interval = 2
-thermal-zone = 9
+thermal-zone = 4
 warn-temperature = 60
 units = true
 format = <label>

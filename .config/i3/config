@@ -94,7 +94,8 @@ bindsym $mod+d exec rofi -show drun
 # bindsym $sup+c exec conky
 
 # lastpass
-bindsym $mod+p exec ~/.local/bin/lpass-util
+# bindsym $mod+p exec ~/.local/bin/lpass-util
+bindsym $mod+p exec passmenu
 
 # emoji
 bindsym $mod+o exec ~/.local/bin/copy-emoji

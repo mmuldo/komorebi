@@ -1,6 +1,6 @@
 [options]
 scrollback_lines = -1
-font = Monospace 12
+font = Inconsolata 12
 browser = firefox
 
 [colors]
